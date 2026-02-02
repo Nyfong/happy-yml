@@ -1,0 +1,66 @@
+
+
+
+
+key1: [value1,value2,value3,value4,value5]
+
+
+#2 
+[one, two, three, four]
+
+#3 
+
+{
+  "one": [
+    {
+      "id": 1,
+      "name": "franc"
+    },
+    {
+      "id": 11,
+      "name": "Tom"
+    }
+  ]
+}
+
+#4
+
+{
+  "employees": [
+    {
+      "id": 213,
+      "name": "franc",
+      "others": [
+        {
+          "department": "sales",
+          "did": 1
+        },
+        {
+          "Salary": 5000
+        },
+        {
+          "address": "USA",
+          "pincode": 97845
+        }
+      ]
+    }
+  ]
+}
+
+#5
+{
+  "author": "Franc",
+  "database": {
+    "driver": "com.mysql.jdbc.Driver",
+    "port": 3306,
+    "dbname": "students",
+    "username": "root",
+    "password": "root"
+  },
+  "support": [
+    "mysql",
+    "MongoDB",
+    "Postgres"
+  ]
+}
+
